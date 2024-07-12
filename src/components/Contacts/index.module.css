@@ -1,0 +1,69 @@
+.contactContainer {
+    background: #F0F7FD;
+}
+
+.contactContainer.lightTheme {
+    background: unset;
+}
+
+.contactWrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.contactInner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactEmail {
+    height: 66px;
+    min-width: 410px;
+}
+
+.contactInfo {
+    margin-top: 40px;
+    margin-bottom: 33px;
+    max-width: 700px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(18, 32, 76, 1);
+}
+
+.contactPhone {
+    line-height: 33px !important;
+    height: 66px;
+}
+
+.contactAddress {
+    height: 52px;
+    width: 730px;
+}
+
+.contactPerson {
+    width: 100%;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0F0F0F;
+}
+
+.contactItem:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.contactItem svg {
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+
+.contactTitle {
+    margin-bottom: 32px;
+}

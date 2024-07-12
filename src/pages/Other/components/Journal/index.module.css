@@ -1,0 +1,54 @@
+.root {
+    width: 100%;
+    background: #F0F7FD;
+}
+
+.root.light {
+    background: unset;
+}
+
+.wrapper {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.journalTitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #12204C;
+    margin-bottom: 16px;
+}
+
+.journalText {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0F0F0F;
+    margin-bottom: 64px;
+}
+
+.journalButton {
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #FCFCFC;
+    background: #12204C;
+    opacity: 80%;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: 1s;
+}
+
+.journalButton:hover {
+    opacity: 100%;
+    transition: 1s;
+}
+
+.info {
+    margin-left: 30px;
+}

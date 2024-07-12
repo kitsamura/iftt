@@ -1,0 +1,78 @@
+.root {
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Open Sans";
+}
+
+.wrapper {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 315px;
+}
+
+.email {
+    font-size: 20px;
+    margin-right: 55px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.phone {
+    font-size: 20px;
+    margin-right: 135px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.languageSwitcher {
+    margin-right: 33px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.languageSwitcher span {
+    font-weight: 600;
+}
+
+.login {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-left: auto;
+    padding: 8px 16px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    background: #F0F7FD;
+    border-radius: 6px;
+    transition: 0.25s;
+}
+
+.login:hover {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-left: auto;
+    padding: 8px 16px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    background: #F0F7FD;
+    border-radius: 6px;
+    transition: 0,25s;
+}
+
+.login svg {
+    margin-right: 8px;
+}

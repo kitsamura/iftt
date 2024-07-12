@@ -1,0 +1,40 @@
+.root {
+    width: 100%;
+    max-width: 1110px;
+    padding: 16px 95px;
+    box-shadow: 0 0 14px 0 #00000026;
+    font-family: "Open Sans";
+    margin-top: 24px;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.root:hover {
+    background: #F0F7FD;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.button {
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #12204C;
+}
+
+.content {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.opened .content {
+    display: block;
+}
+
+.opened svg {
+    transform: rotate(90deg);
+}

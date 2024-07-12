@@ -1,0 +1,82 @@
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 1031px;
+    padding: 64px 56px 40px 56px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #00000033;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.personImage{
+    margin-right: 40px;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.subTitle {
+    margin-bottom: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+
+.infoWrapper {
+
+}
+
+.infoItem {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0F0F0F;
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+.infoItem span {
+    font-weight: 600;
+    color: #6C87BA;
+    margin-right: 16px;
+}
+
+.infoItemGroup {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 32px;
+}
+
+.infoItemGroup .infoItem:first-child {
+    margin-right: 64px;
+}
+
+.closeIconWrapper {
+    position: absolute;
+    right: 60px;
+    top: 64px;
+    cursor: pointer;
+}

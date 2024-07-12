@@ -1,0 +1,99 @@
+.root {
+    background: #12204C;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 54px 0 72px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoText {
+    width: 84px;
+    font-size: 27px;
+    font-family: Roboto;
+    line-height: 32px;
+    color: #FCFCFC;
+    margin-left: 12px;
+}
+
+.contactsContainer {
+    width: 445px;
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 22px;
+    color: #FCFCFC;
+}
+
+.phoneLabel {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.phone:nth-child(2) {
+    margin-bottom: 4px;
+}
+
+.phoneWrapper {
+    margin-bottom: 24px;
+}
+
+.addressLabel {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.address {
+    line-height: 24px;
+}
+
+.documentsContainer {
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 22px;
+    color: #FCFCFC;
+}
+
+.document {
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.document:hover {
+    text-decoration: none;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialContainers {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.socialItem{
+    cursor: pointer;
+    opacity: 80%;
+    margin-right: 8px;
+    transition: 1s;
+}
+
+.socialItem:hover {
+    opacity: 100%;
+}

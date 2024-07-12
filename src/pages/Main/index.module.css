@@ -1,0 +1,164 @@
+.container {
+    width: 100%;
+    background: #F0F7FD;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.text {
+    margin: 0;
+    font-size: 22px;
+    line-height: 37px;
+    font-family: "Roboto";
+}
+
+.text span {
+    font-weight: 700;
+    color: #12204C;
+}
+
+.aboutContainer {
+    background: #FFFFFF;
+}
+
+.aboutWrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.aboutHeaderWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.button {
+    background: #F0F7FD;
+    border-radius: 6px;
+    padding: 4px 16px;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 32, 76, 0.8);
+    transition: transform 0.25s;
+}
+
+.button:hover {
+    background: #F0F7FD;
+    border-radius: 6px;
+    padding: 4px 16px;
+    font-weight: 600;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 32, 76, 0.8);
+    transform: scale(1.1);
+}
+
+.aboutText {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 24px 0;
+}
+
+.aboutText:nth-of-type(4) {
+    margin-bottom: 15px;
+}
+
+.aboutText:last-of-type {
+    margin-bottom: 0;
+}
+
+.aboutText span {
+    font-weight: 700;
+    color: #12204C;
+}
+
+.aboutText:nth-child(3) span {
+    font-weight: 600;
+}
+
+.aboutList {
+    margin: 0 0 24px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.contactContainer {
+    background: #F0F7FD;
+}
+
+.contactWrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.contactInner {
+    width: 632px;
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.contactEmail {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 66px;
+    margin-left: 2px;
+}
+
+.contactPhone {
+    grid-area: 1 / 2 / 2 / 3;
+    line-height: 33px !important;
+    height: 66px;
+}
+
+.contactAddress {
+    grid-area: 2 / 1 / 3 / 3;
+    height: 52px;
+}
+
+.contactRequisites {
+    grid-area: 3 / 1 / 4 / 3;
+    height: 32px;
+}
+
+.contactText {
+    font-size: 20px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0F0F0F;
+}
+
+.contactItem:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.contactItem svg {
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.contactTitle {
+    margin-bottom: 32px;
+}
+
+.stuffSearch {
+    margin-top: 80px;
+}

@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 108px 0 108px 0;
+}
+
+.titleContainer .title {
+    margin-bottom: 0;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 108px;
+    margin-bottom: 40px;
+}
+
+.journalButton {
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #FCFCFC;
+    background: #12204C;
+    opacity: 80%;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: 1s;
+    margin-top: 40px;
+}
+
+.journalButton:hover {
+    opacity: 100%;
+    transition: 1s;
+}

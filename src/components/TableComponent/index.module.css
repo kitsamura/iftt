@@ -1,0 +1,31 @@
+.root {
+    border-collapse: collapse;
+}
+
+.header th {
+    padding: 16px 26px;
+    background: #FFFFFF;
+    /*background: red;*/
+    border-bottom: 1px solid #E0E0E0;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+td {
+    background: #FCFCFC;
+    /*background: red;*/
+    border-bottom: 1px solid #E0E0E0;
+    padding: 30px 26px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+tr:hover td {
+    background: #F0F7FD;
+}

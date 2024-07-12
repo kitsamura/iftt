@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 40px 0 108px 0;
+}
+
+.breadcrumbs {
+    margin-bottom: 56px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.titleSlider {
+    margin-top: 108px;
+}
+
+.stuffSlider {
+    margin-bottom: 108px;
+}
+
+.downloadLink {
+    margin-top: 20px;
+}

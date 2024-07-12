@@ -1,0 +1,49 @@
+.stuffContainer {
+}
+
+.stuffWrapper {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.stuffHeaderWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.stuffSearch {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    background: #F0F7FD;
+    border-radius: 6px;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 32, 76, 0.8);
+    transition: transform 0.25s;
+}
+
+.stuffSearch:hover {
+    font-family: 'Roboto';
+    font-weight: 600;
+    background: #F0F7FD;
+    border-radius: 6px;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 32, 76, 0.8);
+    transform: scale(1.1);
+}
+
+.stuffSearch svg {
+    margin-right: 8px;
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+}
+

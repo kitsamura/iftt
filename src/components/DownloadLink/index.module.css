@@ -1,0 +1,26 @@
+.root {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 90%;
+    transition: 1s;
+}
+
+.root:hover {
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.root svg {
+    flex-shrink: 0;
+}
+
+.text {
+    color: #12204C;
+    margin-left: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+

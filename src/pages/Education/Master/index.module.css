@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 40px 0 108px 0;
+}
+
+.breadcrumbs {
+    margin-bottom: 56px;
+}
+
+.titleContainer .title {
+    margin-bottom: 0;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 108px;
+    margin-bottom: 40px;
+}
+
+.downloadLink {
+    margin-top: 20px;
+}
+
+.button {
+    font-family: 'Raleway';
+    background: #F0F7FD;
+    border-radius: 6px;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 32, 76, 0.8);
+    transition: transform 0.25s;
+}
+
+.button:hover {
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: #F0F7FD;
+    border-radius: 6px;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(18, 32, 76, 0.8);
+    transform: scale(1.1);
+}
+
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 24px 0;
+}
+
+.text:first-of-type {
+    line-height: 30px;
+}
+
+.text b {
+    color: #12204C;
+}
+
+.text + .aboutList {
+    margin-top: -16px;
+}
+
+.aboutList {
+    margin: 0 0 24px 0;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.aboutList b {
+    color: #12204C;
+}
+
+.aboutList li::marker {
+    color: #12204C;
+}
+
+.downloadLinkGroup {
+    margin-top: 40px;
+}

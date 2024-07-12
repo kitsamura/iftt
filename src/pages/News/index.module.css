@@ -1,0 +1,154 @@
+.root {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 108px 0;
+}
+
+.subTitle {
+    font-family: "Open Sans";
+    margin: 0 0 32px 0;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #12204C;
+}
+
+.infoWrapper {
+    background: #F0F7FD;
+    padding: 40px 95px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.infoTitle {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #12204C;
+}
+
+.infoParagraph {
+    margin: 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.infoParagraph:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.list {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 20px;
+}
+
+.list li {
+    padding-left: 4px;
+}
+
+/* .showAllInfos {
+    width: 100%;
+    padding: 16px 95px;
+    box-shadow: 0 0 14px 0 #00000026;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.25s;
+}
+
+.showAllInfos:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+.showAllInfosButton {
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 26px;
+} */
+
+.seminars {
+    margin: 108px 0;
+}
+
+.seminarsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seminar {
+    width: 255px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 14px 0 #00000026;
+    padding: 8px 12px 8px 12px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+    color: #12204C;
+    line-height: 27px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.seminar:hover {
+    background: #F0F7FD;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.seminar:nth-of-type(4n + 4) {
+    margin-right: 0;
+}
+
+.seminar:last-of-type {
+    width: unset;
+    max-width: 540px;
+}
+
+.archiveWrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 108px;
+}
+
+.archiveTitle {
+    font-family: "Roboto";
+    margin: 0 0 32px 0;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 37px;
+    color: #12204C;
+}
+
+.archiveLink {
+    display: block;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 26px;
+    color: #12204C;
+    transition: 1s;
+}
+
+.archiveLink:not(:last-of-type) {
+    margin-bottom: 24px;
+}
+
+.archiveLink:hover {
+    text-decoration: none;
+}
